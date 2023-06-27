@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5961F44E2A4AB9CC00714639 /* DemoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5961F44D2A4AB9CC00714639 /* DemoData.json */; };
+		598871772A4A17F500D30C04 /* CityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598871762A4A17F500D30C04 /* CityCard.swift */; };
+		598871792A4A1D3D00D30C04 /* AttractionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598871782A4A1D3D00D30C04 /* AttractionRow.swift */; };
 		59B7DB632A49ADA300F29DF4 /* GuidebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B7DB622A49ADA300F29DF4 /* GuidebookApp.swift */; };
 		59B7DB652A49ADA300F29DF4 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B7DB642A49ADA300F29DF4 /* CityView.swift */; };
 		59B7DB672A49ADA400F29DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B7DB662A49ADA400F29DF4 /* Assets.xcassets */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5961F44D2A4AB9CC00714639 /* DemoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DemoData.json; sourceTree = "<group>"; };
+		598871762A4A17F500D30C04 /* CityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCard.swift; sourceTree = "<group>"; };
+		598871782A4A1D3D00D30C04 /* AttractionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionRow.swift; sourceTree = "<group>"; };
 		59B7DB5F2A49ADA300F29DF4 /* Guidebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guidebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B7DB622A49ADA300F29DF4 /* GuidebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidebookApp.swift; sourceTree = "<group>"; };
 		59B7DB642A49ADA300F29DF4 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
@@ -68,7 +74,10 @@
 				59B7DB742A49AE2700F29DF4 /* DataService.swift */,
 				59B7DB762A49AE7900F29DF4 /* City.swift */,
 				59B7DB782A49AEEA00F29DF4 /* Attraction.swift */,
+				598871762A4A17F500D30C04 /* CityCard.swift */,
+				598871782A4A1D3D00D30C04 /* AttractionRow.swift */,
 				59B7DB662A49ADA400F29DF4 /* Assets.xcassets */,
+				5961F44D2A4AB9CC00714639 /* DemoData.json */,
 				59B7DB682A49ADA400F29DF4 /* Preview Content */,
 			);
 			path = Guidebook;
@@ -141,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59B7DB6A2A49ADA400F29DF4 /* Preview Assets.xcassets in Resources */,
+				5961F44E2A4AB9CC00714639 /* DemoData.json in Resources */,
 				59B7DB672A49ADA400F29DF4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,8 +164,10 @@
 			files = (
 				59B7DB652A49ADA300F29DF4 /* CityView.swift in Sources */,
 				59B7DB732A49AE0D00F29DF4 /* DetailView.swift in Sources */,
+				598871792A4A1D3D00D30C04 /* AttractionRow.swift in Sources */,
 				59B7DB772A49AE7900F29DF4 /* City.swift in Sources */,
 				59B7DB792A49AEEA00F29DF4 /* Attraction.swift in Sources */,
+				598871772A4A17F500D30C04 /* CityCard.swift in Sources */,
 				59B7DB632A49ADA300F29DF4 /* GuidebookApp.swift in Sources */,
 				59B7DB712A49ADF200F29DF4 /* AttractionView.swift in Sources */,
 				59B7DB752A49AE2700F29DF4 /* DataService.swift in Sources */,

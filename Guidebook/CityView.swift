@@ -17,21 +17,33 @@ struct CityView: View {
     
     var body: some View {
         
-        ScrollView {
+        NavigationStack {
             
-            VStack {
+            ScrollView (showsIndicators: false) {
                 
-                ForEach(cities) { city in
-                    /*@START_MENU_TOKEN@*/Text(city.name)/*@END_MENU_TOKEN@*/
+                VStack (spacing: 20) {
+                    
+                    // For each city, tapping into the name gets me the attraction view for that city
+                    ForEach(cities) { city in
+                        NavigationLink {
+                            AttractionView(city: city)
+                        } label: {
+                            CityCard(city: city)
+                        }
+                        
+                    }
+                    
                 }
+                .padding(.horizontal)
+                // Not vertical because it interferes with ignoring safe area
                 
             }
-            .padding()
             .onAppear {
                 // When screen appears, assign data service data to cities array
-                cities = dataService.getData()
+                cities = dataService.getFileData()
             }
         }
+        .ignoresSafeArea()
     }
 }
 
